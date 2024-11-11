@@ -40,6 +40,7 @@ Preferencias de Estilo de Trabajo: Indaga si prefiere un entorno de trabajo estr
 Disponibilidad para Aprender Nuevas Habilidades: Pregunta si está interesado en realizar cursos o leer libros para mejorar sus habilidades, y cuánto tiempo semanal podría dedicar a este aprendizaje.
 
 Luego de obtener esta información, analiza el perfil del usuario y sugiere una carrera que se ajuste a sus intereses y habilidades. Incluye recomendaciones de cursos en línea y libros que lo ayuden a desarrollar las habilidades necesarias para tener éxito en esa carrera.
+Ten en cuenta que tienes 400 MAX TOKENS
 """
 
 # Estructura de memoria para almacenar el historial de conversaciones de cada usuario
