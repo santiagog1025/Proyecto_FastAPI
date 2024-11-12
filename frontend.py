@@ -51,7 +51,7 @@ def send_query():
     
     if user_input:
         # Construir el historial de chat como un string que será enviado al backend
-        chat_history = "\n".join([f"**🧑 Usuario:** {chat['Pregunta']}\n**🤖 Asistente:** {chat['Respuesta']}" for chat in st.session_state["chat_history"]])
+        chat_history = "\n".join([f"**🧑 Usuario:** {chat['Pregunta']}\n {chat['Respuesta']}" for chat in st.session_state["chat_history"]])
         
         # Añadir la nueva pregunta del usuario al historial para que el modelo lo tenga en cuenta
         chat_history += f"\n**🧑 Usuario:** {user_input}"
